@@ -1,3 +1,0 @@
-[submodule "config/pluginlib"]
-path = config/pluginlib
-url = https://github.com/ros/pluginlib.git
