@@ -36,7 +36,7 @@ source ${ROS1_INSTALL_PATH}/setup.bash
 source ${ROS2_INSTALL_PATH}/setup.bash
 
 # Bridge all topics both ways
-ros2 run ros1_bridge dynamic_bridge
+ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
 ```
 
 For help 
