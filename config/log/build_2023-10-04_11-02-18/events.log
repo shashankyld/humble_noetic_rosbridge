@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000754] (pluginlib) JobQueued: {'identifier': 'pluginlib', 'dependencies': OrderedDict()}
+[0.000792] (pluginlib) JobStarted: {'identifier': 'pluginlib'}
+[0.032513] (pluginlib) JobProgress: {'identifier': 'pluginlib', 'progress': 'cmake'}
+[0.033106] (pluginlib) Command: {'cmd': ['/usr/bin/cmake', '/config/pluginlib/pluginlib', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/config/install/pluginlib'], 'cwd': '/config/build/pluginlib', 'env': OrderedDict([('ROSCONSOLE_CONFIG_FILE', '/ros_noetic_base_2204/catkin_ws/src/rosconsole/config/rosconsole.config'), ('HOSTNAME', 'legion'), ('ROS_PACKAGE_PATH', '/ros_noetic_base_2204/catkin_ws/src'), ('ROS_ETC_DIR', '/ros_noetic_base_2204/catkin_ws/devel/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/ros_noetic_base_2204/catkin_ws/devel/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_noetic_base_2204/catkin_ws/devel/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/ros_noetic_base_2204/catkin_ws/devel/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('ROSLISP_PACKAGE_DIRECTORIES', '/ros_noetic_base_2204/catkin_ws/devel/share/common-lisp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/ros_noetic_base_2204/catkin_ws/src/ros/core/rosbuild'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/config/build/pluginlib'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/ros_noetic_base_2204/catkin_ws/devel/lib/python3/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros_noetic_base_2204/catkin_ws/devel')]), 'shell': False}
+[0.044226] (pluginlib) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /config/build/pluginlib/devel\n'}
+[0.044385] (pluginlib) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /ros_noetic_base_2204/catkin_ws/devel\n'}
+[0.044450] (pluginlib) StdoutLine: {'line': b'-- This workspace overlays: /ros_noetic_base_2204/catkin_ws/devel\n'}
+[0.045548] (pluginlib) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.056958] (pluginlib) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.057076] (pluginlib) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.057210] (pluginlib) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[0.099712] (-) TimerEvent: {}
+[0.139758] (pluginlib) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.139939] (pluginlib) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.140174] (pluginlib) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /config/build/pluginlib/test_results\n'}
+[0.151827] (pluginlib) StdoutLine: {'line': b'-- Forcing gtest/gmock from source, though one was otherwise available.\n'}
+[0.151928] (pluginlib) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[0.151996] (pluginlib) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.200176] (-) TimerEvent: {}
+[0.201992] (pluginlib) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests3\n'}
+[0.242336] (pluginlib) StdoutLine: {'line': b'-- catkin 0.8.10\n'}
+[0.242513] (pluginlib) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[0.300288] (-) TimerEvent: {}
+[0.324623] (pluginlib) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.324932] (pluginlib) StderrLine: {'line': b'  File "/config/build/pluginlib/catkin_generated/generate_cached_setup.py", line 22, in <module>\n'}
+[0.325022] (pluginlib) StderrLine: {'line': b"    code = generate_environment_script('/config/build/pluginlib/devel/env.sh')\n"}
+[0.325101] (pluginlib) StderrLine: {'line': b'  File "/ros_noetic_base_2204/catkin_ws/src/catkin/cmake/../python/catkin/environment_cache.py", line 63, in generate_environment_script\n'}
+[0.325208] (pluginlib) StderrLine: {'line': b"    env_after = ast.literal_eval(output.decode('utf8'))\n"}
+[0.325281] (pluginlib) StderrLine: {'line': b'  File "/usr/lib/python3.10/ast.py", line 64, in literal_eval\n'}
+[0.325351] (pluginlib) StderrLine: {'line': b'    node_or_string = parse(node_or_string.lstrip(" \\t"), mode=\'eval\')\n'}
+[0.325419] (pluginlib) StderrLine: {'line': b'  File "/usr/lib/python3.10/ast.py", line 50, in parse\n'}
+[0.325489] (pluginlib) StderrLine: {'line': b'    return compile(source, filename, mode, flags,\n'}
+[0.325560] (pluginlib) StderrLine: {'line': b'  File "<unknown>", line 1\n'}
+[0.325629] (pluginlib) StderrLine: {'line': b"    ROS_DISTRO was set to 'humble' before. Please make sure that the environment does not mix paths from different distributions.\n"}
+[0.325698] (pluginlib) StderrLine: {'line': b'               ^^^\n'}
+[0.325767] (pluginlib) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[0.328677] (pluginlib) StderrLine: {'line': b'\x1b[31mCMake Error at /ros_noetic_base_2204/catkin_ws/src/catkin/cmake/safe_execute_process.cmake:11 (message):\n'}
+[0.328789] (pluginlib) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.328860] (pluginlib) StderrLine: {'line': b'  "/config/build/pluginlib/catkin_generated/generate_cached_setup.py")\n'}
+[0.328927] (pluginlib) StderrLine: {'line': b'  returned error code 1\n'}
+[0.329013] (pluginlib) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.329092] (pluginlib) StderrLine: {'line': b'  /ros_noetic_base_2204/catkin_ws/src/catkin/cmake/all.cmake:208 (safe_execute_process)\n'}
+[0.329260] (pluginlib) StderrLine: {'line': b'  /ros_noetic_base_2204/catkin_ws/devel/share/catkin/cmake/catkinConfig.cmake:20 (include)\n'}
+[0.329342] (pluginlib) StderrLine: {'line': b'  CMakeLists.txt:4 (find_package)\n'}
+[0.329408] (pluginlib) StderrLine: {'line': b'\n'}
+[0.329473] (pluginlib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.329538] (pluginlib) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.329611] (pluginlib) StdoutLine: {'line': b'See also "/config/build/pluginlib/CMakeFiles/CMakeOutput.log".\n'}
+[0.331844] (pluginlib) CommandEnded: {'returncode': 1}
+[0.367148] (pluginlib) JobEnded: {'identifier': 'pluginlib', 'rc': 1}
+[0.377495] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/config/build/pluginlib/catkin_generated/generate_cached_setup.py", line 22, in <module>
+    code = generate_environment_script('/config/build/pluginlib/devel/env.sh')
+  File "/ros_noetic_base_2204/catkin_ws/src/catkin/cmake/../python/catkin/environment_cache.py", line 63, in generate_environment_script
+    env_after = ast.literal_eval(output.decode('utf8'))
+  File "/usr/lib/python3.10/ast.py", line 64, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+  File "/usr/lib/python3.10/ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+  File "<unknown>", line 1
+    ROS_DISTRO was set to 'humble' before. Please make sure that the environment does not mix paths from different distributions.
+               ^^^
+SyntaxError: invalid syntax
+[31mCMake Error at /ros_noetic_base_2204/catkin_ws/src/catkin/cmake/safe_execute_process.cmake:11 (message):
+  execute_process(/usr/bin/python3
+  "/config/build/pluginlib/catkin_generated/generate_cached_setup.py")
+  returned error code 1
+Call Stack (most recent call first):
+  /ros_noetic_base_2204/catkin_ws/src/catkin/cmake/all.cmake:208 (safe_execute_process)
+  /ros_noetic_base_2204/catkin_ws/devel/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+[0m

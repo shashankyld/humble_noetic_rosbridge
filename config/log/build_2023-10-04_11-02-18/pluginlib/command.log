@@ -1,0 +1,2 @@
+Invoking command in '/config/build/pluginlib': /usr/bin/cmake /config/pluginlib/pluginlib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/config/install/pluginlib
+Invoked command in '/config/build/pluginlib' returned '1': /usr/bin/cmake /config/pluginlib/pluginlib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/config/install/pluginlib

@@ -1,0 +1,58 @@
+[0.040s] Invoking command in '/config/build/pluginlib': /usr/bin/cmake /config/pluginlib/pluginlib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/config/install/pluginlib
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.251s] -- Detecting CXX compile features
+[0.251s] -- Detecting CXX compile features - done
+[0.252s] -- Using CATKIN_DEVEL_PREFIX: /config/build/pluginlib/devel
+[0.253s] -- Using CMAKE_PREFIX_PATH: /ros_noetic_base_2204/catkin_ws/devel
+[0.253s] -- This workspace overlays: /ros_noetic_base_2204/catkin_ws/devel
+[0.254s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.268s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3") 
+[0.268s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.268s] -- Using Debian Python package layout
+[0.268s] -- Using empy: /usr/bin/empy
+[0.359s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.359s] -- Call enable_testing()
+[0.360s] -- Using CATKIN_TEST_RESULTS_DIR: /config/build/pluginlib/test_results
+[0.472s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.472s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.472s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.584s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.585s] -- Found Threads: TRUE  
+[0.589s] -- Using Python nosetests: /usr/bin/nosetests3
+[0.635s] -- catkin 0.8.10
+[0.635s] -- BUILD_SHARED_LIBS is on
+[0.741s] Traceback (most recent call last):
+[0.741s]   File "/config/build/pluginlib/catkin_generated/generate_cached_setup.py", line 22, in <module>
+[0.742s]     code = generate_environment_script('/config/build/pluginlib/devel/env.sh')
+[0.742s]   File "/ros_noetic_base_2204/catkin_ws/src/catkin/cmake/../python/catkin/environment_cache.py", line 63, in generate_environment_script
+[0.742s]     env_after = ast.literal_eval(output.decode('utf8'))
+[0.742s]   File "/usr/lib/python3.10/ast.py", line 64, in literal_eval
+[0.742s]     node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+[0.742s]   File "/usr/lib/python3.10/ast.py", line 50, in parse
+[0.742s]     return compile(source, filename, mode, flags,
+[0.742s]   File "<unknown>", line 1
+[0.742s]     ROS_DISTRO was set to 'humble' before. Please make sure that the environment does not mix paths from different distributions.
+[0.742s]                ^^^
+[0.742s] SyntaxError: invalid syntax
+[0.750s] [31mCMake Error at /ros_noetic_base_2204/catkin_ws/src/catkin/cmake/safe_execute_process.cmake:11 (message):
+[0.750s]   execute_process(/usr/bin/python3
+[0.750s]   "/config/build/pluginlib/catkin_generated/generate_cached_setup.py")
+[0.750s]   returned error code 1
+[0.750s] Call Stack (most recent call first):
+[0.751s]   /ros_noetic_base_2204/catkin_ws/src/catkin/cmake/all.cmake:208 (safe_execute_process)
+[0.751s]   /ros_noetic_base_2204/catkin_ws/devel/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[0.751s]   CMakeLists.txt:4 (find_package)
+[0.751s] 
+[0.751s] [0m
+[0.751s] -- Configuring incomplete, errors occurred!
+[0.751s] See also "/config/build/pluginlib/CMakeFiles/CMakeOutput.log".
+[0.756s] Invoked command in '/config/build/pluginlib' returned '1': /usr/bin/cmake /config/pluginlib/pluginlib -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/config/install/pluginlib

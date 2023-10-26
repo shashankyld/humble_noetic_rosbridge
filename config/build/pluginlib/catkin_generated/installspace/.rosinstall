@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /config/install/pluginlib/setup.sh

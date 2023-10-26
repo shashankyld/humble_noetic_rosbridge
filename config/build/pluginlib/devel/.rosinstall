@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /config/build/pluginlib/devel/setup.sh
