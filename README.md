@@ -29,6 +29,12 @@ colcon build --symlink-install --packages-select ros1_bridge --cmake-force-confi
 
 Step 5: Launch rosbridge 
 ```
+# First source ROS1
+source ${ROS1_INSTALL_PATH}/setup.bash
+
+# Source ROS2
+source ${ROS2_INSTALL_PATH}/setup.bash
+
 # Bridge all topics both ways
 ros2 run ros1_bridge dynamic_bridge
 ```
